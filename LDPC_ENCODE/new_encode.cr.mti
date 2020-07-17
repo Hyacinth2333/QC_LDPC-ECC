@@ -1,0 +1,50 @@
+D:/LDPC_ENCODE/ldpc_encode.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/ldpc_encode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ldpc_encode
+
+Top level modules:
+	ldpc_encode
+
+} {} {}} D:/LDPC_ENCODE/parallel_cell.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/parallel_cell.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module parallel_cell
+
+Top level modules:
+	parallel_cell
+
+} {} {}} D:/LDPC_ENCODE/parity_out.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/parity_out.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module parity_out
+
+Top level modules:
+	parity_out
+
+} {} {}} D:/LDPC_ENCODE/ldpc_encode_tb.v {1 {vlog -work work_encode -vopt -vlog01compat -stats=none {D:\LDPC_ENCODE\ldpc_encode_tb.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ldpc_encode_tb
+
+Top level modules:
+	ldpc_encode_tb
+
+} {} {}} D:/LDPC_ENCODE/encode_cell.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/encode_cell.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module encode_cell
+
+Top level modules:
+	encode_cell
+
+} {} {}} D:/LDPC_ENCODE/control_encode.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/control_encode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module control_encode
+
+Top level modules:
+	control_encode
+
+} {} {}} D:/LDPC_ENCODE/parallel_encode.v {1 {vlog -work work_encode -vopt -stats=none D:/LDPC_ENCODE/parallel_encode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module parallel_encode
+
+Top level modules:
+	parallel_encode
+
+} {} {}}

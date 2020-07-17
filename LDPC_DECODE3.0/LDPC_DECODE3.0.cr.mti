@@ -1,0 +1,144 @@
+D:/LDPC_DECODE3.0/data_load.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/data_load.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module data_load
+
+Top level modules:
+	data_load
+
+} {} {}} D:/LDPC_DECODE3.0/ldpc_decode_tb.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/ldpc_decode_tb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ldpc_decode_tb
+
+Top level modules:
+	ldpc_decode_tb
+
+} {} {}} D:/LDPC_DECODE3.0/CNU_nms.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/CNU_nms.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module CNU_nms
+
+Top level modules:
+	CNU_nms
+
+} {} {}} D:/LDPC_DECODE3.0/benchmarkReduce.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/benchmarkReduce.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module benchmarkReduce
+
+Top level modules:
+	benchmarkReduce
+
+} {} {}} D:/LDPC_DECODE3.0/ldpc_decode.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/ldpc_decode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ldpc_decode
+
+Top level modules:
+	ldpc_decode
+
+} {} {}} D:/LDPC_DECODE3.0/interleaving_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/interleaving_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module interleaving_unit
+
+Top level modules:
+	interleaving_unit
+
+} {} {}} D:/LDPC_DECODE3.0/add_judge_r.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/add_judge_r.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module add_judge_r
+
+Top level modules:
+	add_judge_r
+
+} {} {}} D:/LDPC_DECODE3.0/nms_decode.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/nms_decode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module nms_decode
+
+Top level modules:
+	nms_decode
+
+} {} {}} D:/LDPC_DECODE3.0/data_out.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/data_out.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module data_out
+
+Top level modules:
+	data_out
+
+} {} {}} D:/LDPC_DECODE3.0/r_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/r_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module r_unit
+
+Top level modules:
+	r_unit
+
+} {} {}} D:/LDPC_DECODE3.0/control_decode.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/control_decode.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module control_decode
+
+Top level modules:
+	control_decode
+
+} {} {}} D:/LDPC_DECODE3.0/para.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/para.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+} {} {}} D:/LDPC_DECODE3.0/CNU_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/CNU_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module CNU_unit
+
+Top level modules:
+	CNU_unit
+
+} {} {}} D:/LDPC_DECODE3.0/q_compute.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/q_compute.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module q_compute
+
+Top level modules:
+	q_compute
+
+} {} {}} D:/LDPC_DECODE3.0/control_nms.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/control_nms.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module control_nms
+
+Top level modules:
+	control_nms
+
+} {} {}} D:/LDPC_DECODE3.0/judge_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/judge_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module judge_unit
+
+Top level modules:
+	judge_unit
+
+} {} {}} D:/LDPC_DECODE3.0/sort_index.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/sort_index.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sort_index
+
+Top level modules:
+	sort_index
+
+} {} {}} D:/LDPC_DECODE3.0/H_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/H_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module H_unit
+
+Top level modules:
+	H_unit
+
+} {} {}} D:/LDPC_DECODE3.0/sort_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/sort_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sort_unit
+
+Top level modules:
+	sort_unit
+
+} {} {}} D:/LDPC_DECODE3.0/part_add1.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/part_add1.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module part_add1
+
+Top level modules:
+	part_add1
+
+} {} {}} D:/LDPC_DECODE3.0/q_unit.v {1 {vlog -work work -vopt -stats=none D:/LDPC_DECODE3.0/q_unit.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module q_unit
+
+Top level modules:
+	q_unit
+
+} {} {}}

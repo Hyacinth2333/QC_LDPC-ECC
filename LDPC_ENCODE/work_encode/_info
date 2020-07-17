@@ -1,0 +1,161 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gang/Desktop/competition
+T_opt
+!s110 1592574207
+VAMje9]aAb@477^`=O3d<Z2
+04 14 4 work ldpc_encode_tb fast 0
+=1-00d861783ecd-5eecc0fe-2b1-46b8
+o-quiet -auto_acc_if_foreign -work work_encode
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+R0
+vcontrol_encode
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 EjX:l9olMzE935<<MGDN81
+I:@2m`4iK8FBhcI1`37IC?3
+Z3 dD:/LDPC_ENCODE
+w1591425066
+8D:/LDPC_ENCODE/control_encode.v
+FD:/LDPC_ENCODE/control_encode.v
+L0 1
+Z4 OL;L;10.6c;65
+Z5 !s108 1591534063.000000
+!s107 D:/LDPC_ENCODE/control_encode.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/control_encode.v|
+!i113 0
+Z6 o-work work_encode -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vencode_cell
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 3[cU4jkaK_ac7PG=BL0g@0
+IB<U[=A5UlVkB37]5A<`bK0
+R3
+w1591532662
+8D:/LDPC_ENCODE/encode_cell.v
+FD:/LDPC_ENCODE/encode_cell.v
+L0 1
+R4
+R5
+!s107 D:/LDPC_ENCODE/encode_cell.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/encode_cell.v|
+!i113 0
+R6
+R1
+vldpc_encode
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 gkF]zciocm85;ZMFO7mIk2
+Ien@<[_?@iCXC81L83EgD=2
+R3
+w1591425238
+8D:/LDPC_ENCODE/ldpc_encode.v
+FD:/LDPC_ENCODE/ldpc_encode.v
+L0 1
+R4
+R5
+!s107 D:/LDPC_ENCODE/ldpc_encode.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/ldpc_encode.v|
+!i113 0
+R6
+R1
+vldpc_encode_tb
+!s110 1592647381
+!i10b 1
+!s100 QHmSE`3b7@jDJn3z^cZ9Q0
+IhI9`Oimb?jLzLk4N5AHoB3
+R2
+R3
+w1592574179
+8D:\LDPC_ENCODE\ldpc_encode_tb.v
+FD:\LDPC_ENCODE\ldpc_encode_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1592647381.000000
+!s107 D:\LDPC_ENCODE\ldpc_encode_tb.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-vlog01compat|-stats=none|D:\LDPC_ENCODE\ldpc_encode_tb.v|
+!i113 0
+o-work work_encode -vlog01compat -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vparallel_cell
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^8:7dNljNdG4WTl?CH<EV2
+IYdnbE^_OHHZ6J>_z>@WIZ2
+R3
+w1589604072
+8D:/LDPC_ENCODE/parallel_cell.v
+FD:/LDPC_ENCODE/parallel_cell.v
+L0 1
+R4
+R5
+!s107 D:/LDPC_ENCODE/parallel_cell.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/parallel_cell.v|
+!i113 0
+R6
+R1
+vparallel_encode
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 zl[eR=?b5fcozUkH3S:ab3
+IQHJiG>ID3IC:ncnHG7RYR1
+R3
+w1591532659
+8D:/LDPC_ENCODE/parallel_encode.v
+FD:/LDPC_ENCODE/parallel_encode.v
+L0 1
+R4
+R5
+!s107 D:/LDPC_ENCODE/parallel_encode.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/parallel_encode.v|
+!i113 0
+R6
+R1
+vparity_out
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 1aLVjDJMm957ofMG2`E_P2
+I:HDm`<AeQ_L81_[VjA]V40
+R3
+w1591532731
+8D:/LDPC_ENCODE/parity_out.v
+FD:/LDPC_ENCODE/parity_out.v
+L0 1
+R4
+R5
+!s107 D:/LDPC_ENCODE/parity_out.v|
+!s90 -reportprogress|300|-work|work_encode|-vopt|-stats=none|D:/LDPC_ENCODE/parity_out.v|
+!i113 0
+R6
+R1

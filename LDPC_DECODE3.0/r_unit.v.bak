@@ -1,0 +1,38 @@
+`include "para.v"
+module r_unit(
+		input clk,
+		input rst_n,
+		input f_one_iteration,
+		input load_to_CNU,
+		input storage,
+		input[64*(`iniBW+`exBW)*27-1:0] LLRr_out,
+		output reg[64*(`iniBW+`exBW)*27-1:0] LLRr_in
+	    );
+
+reg[64*(`iniBW+`exBW)*27-1:0] r_RAM[15:0];
+reg[3:0] r_addr,w_addr;
+
+always@(posedge clk or negedge rst_n)
+	if(!rst_n)
+		r_addr<=0;
+	else if(f_one_iteration)
+		r_addr<=0;
+	else if(load_to_CNU)
+		r_addr<=r_addr+1'b1;
+
+always@(posedge clk or negedge rst_n)
+	if(!rst_n)
+		w_addr<=0;
+	else if(f_one_iteration)
+		w_addr<=0;
+	else if(storage)
+		w_addr<=w_addr+1'b1;
+
+
+always@(posedge clk)
+	LLRr_in<=r_RAM[r_addr];
+	
+always@(posedge clk)
+	r_RAM[w_addr]<=LLRr_out;
+
+endmodule
