@@ -6,8 +6,8 @@ This project realizes the function of ECC in a NAND Flash controller.
 Firstly,i construct a H matrix based on QC_LDPC which eliminates 4 rings,this work progresses on the platform of MATLAB;(see in ECC.constructHG folder)
 Secondly,realizing the fast encoding unit in hardware,which progresses on the platform of Questa-Sim,using the G matrix corresponding with H matrix;(see in LDPC_ENCODE folder)
 
-Thirdly,simulating the error correction capacity of nms_decode algorithm on the platform of MATLAB,which has a peak correction capacity of 80 bit and a stable
-capacity of 75 bit;(see in ECC folder)
+Thirdly,simulating the error correction capacity of nms_decode algorithm on the platform of MATLAB,which has a peak correction capacity of 80 bits and a stable
+capacity of 75 bits;(see in ECC folder)
 
 Finally,realizing the nms_decode unit in hardware on the platform of Questa-Sim.(see in LDPC_DECODE3.0 folder)
 
